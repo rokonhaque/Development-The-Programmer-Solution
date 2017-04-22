@@ -1,3 +1,4 @@
+# <h1 align="center">Free Course</h1>
 ### Index
 
 * [Algorithms & Data Structures](#algorithms--data-structures)
