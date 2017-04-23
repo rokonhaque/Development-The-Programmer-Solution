@@ -1,3 +1,19 @@
+<h1 align="center">Development The Programmer Solution</h1>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/beingrokon">
+    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png">
+</a>
+<a href="https://twitter.com/BeingDevApp">
+    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-07-128.png">
+</a>
+</p>
+<p align="center">
+<img width="700" alt="GitIntoGitHub!" src="http://www.youthedesigner.com/wp-content/uploads/2013/10/awesome-web-design-of-the-week-schmidt-kitchens004.jpg">
+</p>
+<p align="center">
+<img width="700" alt="GitIntoGitHub!" src="http://www.levten.com/images/content-development-banner.jpg">
+</p>
 <h1 align="center">Resources for learning web design & front-end development:</h1>
 
 Design
