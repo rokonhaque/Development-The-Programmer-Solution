@@ -9,9 +9,6 @@
 </a>
 </p>
 <p align="center">
-<img width="700" alt="GitIntoGitHub!" src="http://www.youthedesigner.com/wp-content/uploads/2013/10/awesome-web-design-of-the-week-schmidt-kitchens004.jpg">
-</p>
-<p align="center">
 <img width="700" alt="GitIntoGitHub!" src="http://www.levten.com/images/content-development-banner.jpg">
 </p>
 <h1 align="center">Resources for learning web design & front-end development:</h1>
