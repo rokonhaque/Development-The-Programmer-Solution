@@ -1,0 +1,13 @@
+How to add a new folder and all files in that folder to Git  repository
+
+Date : 1/19/2014
+
+	1. Go to folder level
+	2. type :  git init
+	3. type :  git add -A   
+(if we want to add all files in that folder, here A stands for All. 
+Note : If nothing shown after type and enter that means evrything ok)
+	4. type :  git commit -m "adding files"
+	5. type :  git remote add origin git@github.com:bittechusa/Course-Outline.git
+(here bittechusa will vary and will be company name and course-outline will also vary and will be folder/repository/repo name)
+	6. type :  git push -u origin master

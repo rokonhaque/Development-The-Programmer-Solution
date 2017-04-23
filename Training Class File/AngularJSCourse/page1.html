@@ -1,0 +1,56 @@
+<html ng-app>
+
+	<head>
+	
+		<title> This is page1 title </title>
+		<link rel="stylesheet" type="text/css" href="alamStyle.css">
+		<script src="alamJavaScriptLibrary.js"></script>
+		<script src="alamQuery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+		<script>
+		$(document).ready(function(){
+		$("p").click(function(){
+		$(this).hide();
+			});
+		});
+		</script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+		
+	</head>
+
+	<body>
+	
+	<!--
+	<font color="green"><b> This is page1 body </b> </font>
+	
+	<font color="blue"><p> This is a paragraph1 example. </p> </font>
+	
+	<font color="green"><b> This is my Country1 </b> </font>
+	
+	-->
+	
+	<b> This is page1 body </b> 
+	
+	<p class="shala"> This is a paragraph1 example. </p> 
+	
+	<p> This is a paragraph1 example. </p> 
+	
+	<span class="shala2"> This is my Shala2 </b> </span><br>
+	
+	<b> This is my Country1 </b> <br>
+	
+	<b class="shala"> This is my Shala1 </b> <br>
+	
+	<input type=text id="n" ng-model="mogaName">
+	<input type=button value=Submit onclick="moga()">
+	
+	<h1>Hello {{mogaName}}</h1>
+	
+	<b> Shala {{mogaName}} </b>
+	
+	</body>
+
+
+</html>

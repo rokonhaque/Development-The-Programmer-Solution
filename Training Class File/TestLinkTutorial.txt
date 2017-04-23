@@ -1,0 +1,16 @@
+TestLink
+
+How to open testlink
+
+1. Open Xampp control panel and run Apache and Mysql
+2. open any browser and type - localhost/testlink
+
+
+What did you use as Test Management Tools?
+
+TestLink is a Test Management Tool
+
+1. Business Requirement / Specification Document (BRD)
+2. User Stories / Use Case
+
+

@@ -1,0 +1,48 @@
+<html>
+
+	<head>
+	<title> This is page Title </title>
+	
+	<script>
+	
+		function moga()
+		{
+			var m = document.getElementById("a").value;
+			if(m=="")
+			{
+				document.getElementById("ne").innerHTML="Name not found";
+			}
+			else
+			{
+				document.getElementById("ne").innerHTML="";
+			}
+			
+			if(m!="asad")
+			{
+				document.getElementById("me").innerHTML="Invalid Name";
+			}
+			else
+			{
+				document.getElementById("me").innerHTML="";
+			}
+			
+		}
+	
+	</script>
+	
+	</head>
+	
+	
+	<body bgcolor="Blue">
+	
+	<div> Welcome to Bit Tech <div>
+	
+	Enter your name <input type=text id="a"> 
+	<span id="ne" style="color:red"></span>
+	<span id="me" style="color:red"></span>
+	<br>
+	Enter your password <input type=password id="p"> <br>
+	<input type=button value=Login onclick="moga()">
+	</body>
+
+</html>

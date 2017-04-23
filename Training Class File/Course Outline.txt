@@ -1,0 +1,48 @@
+Software Tester
+
+1. Software Development Life Cycle (SDLC)
+	a) Agile
+	b) JIRA
+2. Web Developments Fundamentals
+	a) HTML (html, head, b, body, title, font, input, iframe, select, radio, text, password)
+	b) CSS (style, .class, #id, internal, external, inline)
+	c) Javascript (onclick, function, alert, if -else)
+3. Java Programming Language
+	a) Class
+	b) Method (Main, Constructor, Void, Return type, Parameter/Arguments)
+	c) Variable (public, int, String, Static, Final, Array, protected, private, instance, local, global )
+	d) Inheritance (extends)
+	e) Control(loop - for) & Condition(if -else)
+	f) Interface
+	g) Abstract
+
+4. Selenium
+	a) Selenium IDE
+	b) Selenium Webdriver in Java integration
+5. Framework
+	a) Junit
+	b) TestNg
+
+6. Project Building tools
+	a) Maven
+
+7. Version Control
+	a) Git
+	b) SVN
+8. Database
+	a) MySQL
+	b) Oracle
+9. Linux
+	a) cat, ls, ls -al, ps, ps aux, grep, head, tail, grep
+
+10. Application Server
+	a) Apache
+	b) Tomcat
+	C) IIS
+11. Server Side Language
+	a) Php
+	b) Jsp
+	c) Asp
+
+
+-------------------------------------&&&&&&&&&&&&&&------------------------------

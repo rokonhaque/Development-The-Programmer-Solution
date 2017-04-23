@@ -1,0 +1,14 @@
+What is Performance Testing?
+
+Performance Testing is performed to determine response time of the some 
+components of the system perform under a particular workload. 
+It is generally measured in terms of response time for the user activity. 
+It is designed to test the overall performance of the system at high load 
+and stress condition It identifies the drawback of the architectural design 
+which helps to tune the application. It includes the following:
+
+Increasing number of users interacting with the system.
+Determine the Response time.
+Repeating the load consistently.
+Monitoring the system components under controlled load.
+Providing robust analysis and reporting engines.

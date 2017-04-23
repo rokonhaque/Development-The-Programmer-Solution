@@ -1,0 +1,73 @@
+Database consists of only tables
+
+Tables consists of rows and cols
+
+Rows consists of Data
+
+Columns are also called field
+
+Rows are also called record
+==================================
+
+To show databases
+Command : show databases;
+
+To create a database
+Command : create database bit;
+
+Access denied. Because you are not logged in as database admin 
+
+To exit from database
+Command : exit
+
+To enter into mysql database as admin
+Command : mysql -u root -p 
+
+To create a database you need to select a database first. To select a database
+Command : use bit;
+
+To create a table
+Command : D
+Command :
+way 1 : insert into table1(id,name,telephone) values('1','asad','9173493746');
+way 2 : insert into table1 values('1','asad','9173493746');
+(table1 is a table name)
+
+To change a column data type;
+Command : alter table table1 modify Telephone varchar(20);
+
+To change a column name;
+Command : alter table table1 change Telephone Tel varchar(20);
+
+To update a column info;
+Command :  update table1 set Tel=6462736464 where Name='Tani';
+
+To delete a column;
+Command : alter table table1 drop Email;
+
+To show data based on column search;
+Command :  select * from table1 where City = 'Bronx';
+
+To show the count of
+
+select count(Population) from table1;
+
+===========================
+
+To enter into mysql databas server?
+command : mysql -u root -h (localhost) -p
+OR
+Command : mysql -u (userName) -h 127.0.0.1 -p
+
+
+To show the loged-In user name in existing
+command: select user();
+
+TO show all users account
+Command: select user from mysql.user;
+
+To get info from 2 different table
+Command: select table1.s_id, name, cell, ssn from table1 join table2
+	 on table1.s_id = table2.s_id;
+How to get privileges...
+ grant all privileges on * . * to 'zia'@'localhost';

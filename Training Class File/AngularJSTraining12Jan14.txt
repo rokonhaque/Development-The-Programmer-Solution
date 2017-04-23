@@ -1,0 +1,9 @@
+AngularJS
+
+Developed by Google company
+
+Protractor
+
+Automation tools for AngularJS application like Selenium
+
+Install Node.js

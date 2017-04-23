@@ -1,0 +1,29 @@
+touch : To create blank files only. 
+Vi (text editor like notepad): to create file and edit.
+nano:(text editor like notepad): to create file and edit.
+mkdir:To create a folder/directory
+rm:to remo
+cat:to see contents of the file only
+head filename - it will show first 10 lines of the file by default
+head -5 filename
+
+tail filename  - it will show last 10 lines of the file by default
+tail -4 filename 
+grep 'any character or word' filename(s)
+namehow to search a word which started with any character:
+ex:grep '[yY]ou' filename
+regular expression:
+ex:grep '[wW]el' filename
+to combine two command you use |(pipe sign) or &&(and sign)
+ex:cat filename | wc filename 
+cat filename && wc filename
+wc: to count line word and character
+ex:wc file3 
+top: to see the system performance
+ex:top
+ps:to see the all running program
+ps -aux: it gives a snapshop of current process
+kill: to stop any application
+ex: killall application name
+
+

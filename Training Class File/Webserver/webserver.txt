@@ -1,0 +1,43 @@
+Date : 11/16/2013
+
+Web Server 
+------------------
+The term web server can refer to either the hardware 
+(the computer) or the software (the computer application)
+that helps to deliver web content(html,css,javascript,image) that can be accessed 
+through the Internet.
+
+Renowned web server in the market
+
+1. Apache
+2. Tomcat
+3. Jboss
+4. IIS
+5. Websphere
+6. Weblogic
+
+Web server serves to browser
+
+Domain Name
+Example : www.google.com
+Example : localhost
+
+IP address (Web Server address)
+Example : 161.58.104.2
+Example : 127.0.0.1
+
+Database
+Name : Mysql
+
+Database consists of tables;
+Tables consists Columns and Rows
+
+PHP
+Server side language which will talk with server (apache)
+and will store data into database
+PHP Hypertext Preprocessor
+http://www.w3schools.com/php/php_intro.asp
+
+
+
+

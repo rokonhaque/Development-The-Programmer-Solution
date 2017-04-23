@@ -1,0 +1,7 @@
+>Benefits of Page Objects.....
+
+1: Maintenance
+
+2: Code Readable
+
+3: 

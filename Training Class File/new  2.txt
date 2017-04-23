@@ -1,0 +1,8 @@
+Array is a container which hold multiple value in a same type and fixed number.
+Array has three phase;
+1. initialization-Data type[] variable name;exp. int[] a;
+2. constructor-int[] a=new int[5];
+3.declaration-int[]a={3,5,7,9,8};
+
+
+int[]a={5,8,9,4};

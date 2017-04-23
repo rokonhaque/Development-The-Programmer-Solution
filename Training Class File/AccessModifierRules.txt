@@ -1,0 +1,8 @@
+Access Modifiers rules
+
+1. public members(variables and methods) can be accessed from anywhere
+2. protected members can only be accessed in same package and to use another package it should be
+extended
+3. For private method we should create a getters method for access
+
+

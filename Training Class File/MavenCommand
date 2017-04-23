@@ -1,0 +1,30 @@
+Class date - 09 Nov 2013
+
+
+1. How to go to desktop
+
+cd ~/Desktop
+
+2. How to create a new folder
+
+mkdir TestNgProject
+
+3. How to see the folder and file
+
+dir (in Win) , ls (linux, Mac)
+
+4. How to chnage directory
+
+cd TestNgProject
+
+To run a maven test we need to create a file which last name will be Test
+
+
+5. How to create a maven test using command prompt or git bash
+
+mvn archetype:generate -DgroupId=com.bit.test -DartifactId=BitMavenAutomation
+
+
+
+
+

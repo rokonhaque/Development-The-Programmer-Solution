@@ -1,0 +1,6 @@
+Web Server	Language	Database
+Apache		Php		MySql
+Jboss		Jsp		Oracle / Mysql
+Tomcat		Jsp		Mysql/Oracle/MS SQL
+IIS		Asp		MS SQL
+

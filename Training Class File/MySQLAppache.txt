@@ -1,0 +1,16 @@
+Date - 7 Nov 13	
+
+How to install Appache, MYSQL, PHP
+
+1: Go to> http://www.apachefriends.org/en/xampp-windows.html#641
+2: Select> XAMPP PHP (any version) Installer
+3: Then> complete download
+4: 
+
+
+Download Fiddler
+
+1: Go to> http://fiddler2.com/get-fiddler
+2: Select> any Fiddler to install
+3: Save and complete download
+

@@ -1,0 +1,39 @@
+9 Feb 2014
+
+Web Fundamentals
+
+1. Web based software is opened using Browser (Firefox, Google Chrome, Internet
+Explorer etc.)
+
+2. Browser should understand the language. Browser can only understand HTML, CSS, Javascript
+
+3. Browser is called also Client
+
+Note : So we should write web based software using HTML / CSS / Javascript
+
+
+a. HTML - Hyper Text Markup Language
+
+	1. all commands in HTML should be tagged < >
+	2. Most of the tags needed to be closed < / >
+	3. All tags need to be inserted inside html tag <html>
+
+DOM - Document Object Model  - IQ
+
+b. CSS - Cascading Style Sheet
+
+	To call by class use .
+	To call by id use #
+
+How to call CSS
+
+	1. Inline
+	2. Internal
+	3. External
+
+
+
+
+
+
+

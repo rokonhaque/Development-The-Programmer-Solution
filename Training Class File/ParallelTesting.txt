@@ -1,0 +1,17 @@
+How to run multiple tests concurently
+How to do cross browser testing
+
+C:\Users\ridwan\Desktop\Training-Manual-Warehouse\AllJarFiles
+
+how to start a selenium grid server
+
+java -jar selenium-server-standalone-2.37.0.jar -role hub -port 4444
+
+
+how to register browsers with hub
+java -jar selenium-server-standalone-2.37.0.jar -role node -hub http://localhost:4444/grid/register -browser browserName=firefox,maxInstances=3
+
+java -jar selenium-server-standalone-2.37.0.jar -role node -hub http://localhost:4444/grid/register -browser browserName=chrome,maxInstances=3 -port 5557
+
+
+java -jar selenium-server-standalone-2.37.0.jar -role node -hub http://localhost:4444/grid/register -browser browserName="internet explorer",maxInstances=3 -port 5559

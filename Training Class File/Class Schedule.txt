@@ -1,0 +1,11 @@
+Java Class - 1 
+Date - 27 Nov 2013
+Topics - Basic Syntax
+http://www.tutorialspoint.com/java/java_basic_syntax.htm
+
+Java Class - 2 
+Date - 28 Nov 2013
+Topics - Basic Syntax
+http://www.tutorialspoint.com/java/java_basic_syntax.htm
+
+

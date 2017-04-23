@@ -1,0 +1,48 @@
+Domain IP coversion
+
+http://www.hcidata.info/host2ip.cgi
+
+
+Web Server
+
+The term web server can refer to either the hardware or the software that helps to 
+deliver web content that can be accessed through the Internet. 
+The most common use of web servers is to host websites, but there are other uses 
+such as gaming, data storage or running enterprise applications.
+
+
+	1. Apache (Open Source)
+	2. Tomcat
+	3. IIS
+	4. Jboss
+	5. Web Logic
+	6. Web Sphere
+
+Database
+
+	1. Oracle
+	2. Mysql
+	3. MS SQL
+	4. DB2
+	5. PostGres
+	6. Sybase
+
+PHP
+
+Server side scripting language
+Responsibility : To store data from web server(apache) to database server(mysql)
+
+
+
+
+
+Save file to
+
+C:/xampp/htdocs = Server address
+
+Fiddler
+To inspect request from browser and response from server
+
+
+
+

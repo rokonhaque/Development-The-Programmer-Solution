@@ -1,0 +1,1 @@
+create table customer(name varchar(60), email varchar(70), phone varchar(12), password varchar(12));

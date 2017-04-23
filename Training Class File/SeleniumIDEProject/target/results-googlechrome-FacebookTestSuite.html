@@ -1,0 +1,176 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>failed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.21</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr class="title  status_failed"><td><b>Test Suite</b></td></tr>
+<tr class=" status_failed"><td><a href="#testresult0">signup</a></td></tr>
+<tr class=" status_failed"><td><a href="#testresult1">login</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">signup.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_failed"><td rowspan="1" colspan="3">signup</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr class=" status_failed" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=u_0_0</td>
+	<td>Element&nbsp;id=u_0_0&nbsp;not&nbsp;found</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=u_0_1</td>
+	<td>Zaman</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=u_0_3</td>
+	<td>Zaman</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=u_0_4</td>
+	<td>Zaman</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">login.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_failed"><td rowspan="1" colspan="3">login</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr class=" status_failed" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=email</td>
+	<td>Element&nbsp;id=email&nbsp;not&nbsp;found</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>typeAndWait</td>
+	<td>id=pass</td>
+	<td>12345</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/signup.html
+info: Executing: |open | / |  |
+info: Executing: |typeAndWait | id=u_0_0 | Asad |
+error: Element id=u_0_0 not found
+warn: currentTest.recordFailure: Element id=u_0_0 not found
+info: Starting test /selenium-server/tests/login.html
+info: Executing: |open | / |  |
+info: Executing: |typeAndWait | id=email | asad@gtmail.com |
+error: Element id=email not found
+warn: currentTest.recordFailure: Element id=email not found
+</pre></body></html>

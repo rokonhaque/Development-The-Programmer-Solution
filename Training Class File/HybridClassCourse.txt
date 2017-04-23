@@ -1,0 +1,6 @@
+Hybrid Class Course
+
+1. Page Objects Framework with Selenium and Java
+2. SQL Queries
+3. Unix Commands
+4. Domain Knowledge

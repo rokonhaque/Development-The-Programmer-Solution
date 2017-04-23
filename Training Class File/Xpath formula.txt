@@ -1,0 +1,32 @@
+1.<input type ="text" id="moshiur rahman"></input>
+2.<input type="button" name="mahbub">
+3.<div class="red">hello</div>
+4.<div>
+5.<div>
+6.<div>
+
+Formula:
+1.//tag name[@property name='value']
+ex://input[@id='moshiur rahman']
+2.if value is really big then:
+//tag name[contains(@property name,'value')]
+Ex://input[contains(@id,'rahman')]
+3.if you want to add more than one property under same tag name then:
+//tag name[@property name='value' and @property name='value']
+ex://input[@id='moshiur rahman' and @type='text']
+4.//tag name[@property name='value' and contains(@property name,'value')]
+ex://input[@type='text' and contains(@id,'rahman')]
+5.if you want to add more than one tag then:
+//tag name[@property name='value']//tag name[@property name='value'](you can add formula 1 and 2, 1 and 3, 2 and 3)
+ex://input[@type='text']//input[@type='button']
+ex://input[@type='text' and @id='moshiur rahman']//input[@type='button']
+ex://input[@type='text' and contains(@id,'moshiur')]//input[contains(@id,'moshiur')]
+6.if you want to take word between tag start and finish:
+//tag name[text()='word between tag']or//tag name[contains(text(),'word between tag')]
+ex://div[text()='hellow']
+ex://div[contains(text(),'hello')]
+7.//tag name[@property name='value']//tag name[@property name='value']/tag name
+ex://input[@type='text']//input[@type='button']/div
+8.//tag name[@property name='value']/tag name[index number]
+ex://input[@type='button']/div[3]
+

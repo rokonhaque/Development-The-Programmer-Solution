@@ -1,0 +1,8 @@
+1. How to setup TestNG in Eclipse 
+
+
+
+1. Go to Eclipse and Click help menu, then click Install New Software
+2. Click add button
+3. Type any name, type http://beust.com/eclipse in location
+4. Click  ok, select and next, next and finish

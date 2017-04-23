@@ -1,0 +1,55 @@
+Java Key Concept
+
+1. Class
+
+2. Object
+	a. by default constructor
+	b. multiple constructor (number of param, type of param)
+
+3. Method
+	a. void
+	b. return (int/String/Class)
+
+4. Variable
+
+5. Access modifiers - public, private, protected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note :
+
+* Method can't be called without method
+
+
+
+

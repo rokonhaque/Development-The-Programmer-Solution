@@ -1,0 +1,21 @@
+1. Install xampp if you don't have already
+
+Installation link - http://www.apachefriends.org/en/xampp-windows.html
+
+2. Install Test link
+
+Installation link - http://testlink.org/
+Then Click on  - Get it from sourceforge
+
+3. Install Winzip
+
+Installation link - http://www.winzip.com/downwz.html
+Then click Download WinZip Now button
+
+4. Unzip Testlink.zip file
+
+5. Copy Testlink file to C:/xampp/htdocs
+
+6. Open xampp and start Apache and Mysql 
+
+7. Open command prompt and type

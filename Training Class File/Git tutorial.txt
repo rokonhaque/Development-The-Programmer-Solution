@@ -1,0 +1,37 @@
+How to initilize a new repository
+1. go to github.com then login, then create new repository
+2. open git bash
+3. go to repository level
+4. git init
+5. git add -A or git add .
+6. git commit -m "write any coment"
+7. git remote add origin copy the repository path
+8. git push -u origin master
+
+*How to add any file or project in existing repository
+1. go to folder level
+2. paste file or project in folder
+3. git add . or git add -A
+4. git commit -m "any coment"
+5. git pull
+6. git push (if needed git push -u origin master)
+
+*How to import a project in Eclipse from folder or repository
+1. click file
+2. click import
+3. click generel (if maven project then click maven instead of general)
+4. click existing project into workspace (if maven project click existing maven project)
+5. click browse, then go to folder level then select project
+6. click finish or ok
+
+*How to export a project from Eclipse to folder or repository
+1. right click on project
+2. click export
+3. click generel and then file system 
+4. select the target folder and press ok
+5. open git bash
+6. go to folder level
+7. git add . or git add -A
+8. git commit -m "any coment"
+9. git pull
+10. git push (if needed git push -u origin master)

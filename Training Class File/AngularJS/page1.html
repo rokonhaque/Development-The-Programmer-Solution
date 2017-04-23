@@ -1,0 +1,40 @@
+<html ng-app>
+
+	<head>
+		<title>
+			Welcome AngularJS Training Web Site
+		</title>
+		
+		<style>
+			.rubel{color:red}
+			
+		</style>
+		
+		<link rel="stylesheet" href="design1.css">
+		<script src="bittechJS.js"></script>
+		<script src="bitlib.js"> </script>
+		
+		<script>
+		
+			function showText()
+			{
+				var n = document.getElementById("name").value;
+				alert("Did you entered your name : " + n);
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body>
+		<b class="rubel">Welcome to new topics - Angular JS </b>
+		<br>
+		<span class="ridwan">Enter your name : </span>
+		<input type=text id="name" placeholder="Enter Your Name" > <br>
+		<div class="ridwan">Type your phone : </div> 
+		<input type=text placeholder="Type your cell phone" ng-model="moga">
+		<p> You Phone number : {{moga}}  </p>
+		<input type=button value="Submit" onclick="showTextMessage()">
+	</body>
+
+</html>
